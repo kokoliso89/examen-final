@@ -1,0 +1,101 @@
+img {
+display: block;
+width: 100%;
+max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.container--flex{
+    display:flex ;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.column{
+    width: 100%;
+}
+.main-header{
+    width: 100%;
+}
+.logo{
+    font-size: 1.8em;
+    color: #de423a;
+    padding: 10px;
+}
+.main-header__contactInfo__phone{
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+.main-nav {
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+.banner{
+    margin-top: -55px;
+    position: relative;
+}
+.banner::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,7);
+    z-index: 1000;
+    top: 0;
+}
+.banner__img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.group--color  .container{
+    background: #de423a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.main__title{
+    margin: 15px 0;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+.today-especial  .column{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.today-especial__img{
+    margin: auto;
+    max-width: 350px;
+
+}
+.today-especial__title{
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.today-especial__price{
+    font-size: 1.5em;
+    color: #de423a;
+    font-weight: bold;
+}
+.main-footer{
+    background:#222;
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: .8em;
+}
+.copy{
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
